@@ -1,0 +1,31 @@
+{
+  "name": "shopsy",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Daniel Khan <daniel@khan.io>",
+  "scripts": {
+    "start": "node ./server/bin/www | ./node_modules/bunyan/bin/bunyan"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "connect-redis": "^4.0.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dtrace-provider": "^0.8.8",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "mysql2": "^2.1.0",
+    "pug": "^2.0.4",
+    "redis": "^3.0.2",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
