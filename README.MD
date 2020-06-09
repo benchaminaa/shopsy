@@ -68,5 +68,5 @@ create a schema called 'shopsy'.
 
 ## Start Shopsy application. Happy learning...
 ```
-$ npm run
+$ npm start
 ```
